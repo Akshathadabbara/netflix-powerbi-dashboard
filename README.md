@@ -1,10 +1,12 @@
 # netflix-powerbi-dashboard
 A data visualization project using power BI to explore netflix movies and tv shows from a kaggle dataset
 Netflix Movies and TV Shows – Excel & Power BI Analysis
+# Data content
 This repository contains data cleaning, visualization, and dashboard reporting of Netflix Movies and TV Shows using Microsoft Excel and Power BI.
 Dataset Info
 Source: Kaggle - Netflix Movies and TV Shows
 File Used: netflix_titles.csv
+# Key columns
 Key Columns:
 show_id: Unique ID
 type: Movie or TV Show
@@ -12,6 +14,7 @@ title, director, cast
 country, date_added, release_year
 rating, duration, listed_in (genres)
 description
+# Data cleaning
 Data Cleaning (Excel)
 Removed blanks and duplicates
 Split multi-value fields (like cast, genres) where needed
@@ -29,6 +32,7 @@ Popular Genres
 Content Duration Analysis
 Folder Structure
 bash
+# Code
 Copy code
 netflix-powerbi-excel/
 │
